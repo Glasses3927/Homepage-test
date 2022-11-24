@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on GlässesWeb</title>
+    <link>https://glasses3927.github.io/Homepage-test/tags/</link>
+    <description>Recent content in Tags on GlässesWeb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Thu, 24 Mar 2022 22:48:50 +0900</lastBuildDate><atom:link href="https://glasses3927.github.io/Homepage-test/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>exam</title>
+      <link>https://glasses3927.github.io/Homepage-test/tags/exam/</link>
+      <pubDate>Thu, 24 Mar 2022 22:48:50 +0900</pubDate>
+      
+      <guid>https://glasses3927.github.io/Homepage-test/tags/exam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>study</title>
+      <link>https://glasses3927.github.io/Homepage-test/tags/study/</link>
+      <pubDate>Thu, 24 Mar 2022 22:48:50 +0900</pubDate>
+      
+      <guid>https://glasses3927.github.io/Homepage-test/tags/study/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

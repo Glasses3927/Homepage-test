@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+
+.tcontents {
+	padding: 100px;
+}
+
+
+.tname {
+	letter-spacing: 0rem;
+	font-size: 4rem;
+	line-height: 4rem;
+	font-family: 'Noto Serif';
+	margin-bottom: 30px;
+}
+
+.tcontents > ul {
+	font-size: 1.8rem;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.tcontents > ul > li {
+	margin-bottom: 20px;
+}
+
+.tcontents > ul > li > ul {
+	margin-left: 70px;
+	margin-top: 10px;
+}

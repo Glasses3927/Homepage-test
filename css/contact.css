@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+
+
+
+/*以下，contact部分*/
+
+
+
+
+
+.contact {
+	padding: 100px;
+}
+
+.ja {
+	letter-spacing: 0.5rem;
+	font-size: 3.5rem;
+	font-family: 'Noto Serif JP';
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.en {
+	letter-spacing: 0rem;
+	font-size: 1.75rem;
+	font-family: 'Noto Serif JP';
+	text-align: center;
+}
+
+.contact-content{
+	margin-top: 35px;
+	padding-left: 200px;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+	font-family: 'Noto Serif JP';
+}
+
+.contact-content p{
+	margin-top: 2.5rem;
+}
+
+.contact-content hr {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+/*以下，レスポンシブ対応*/
+
+
+
+
+
+
+@media (max-width:1000px) {
+	
+	.contact-content {
+	padding-left: 100px;
+	}
+	
+}
+
+
+@media (max-width:860px) {
+
+	.contact-content {
+		padding-left: 40px;
+	}
+	
+}
+
+
+@media (max-width:700px) {
+	
+	.contact-content {
+		padding-left: 0;
+	}
+
+	.contact {
+		padding-right: 60px;
+		padding-left: 60px;
+	}
+	
+}
+
+
+@media (max-width:500px) {
+	
+	.contact-content {
+		font-size: 1.3rem;
+	}
+
+}
+
+
+
+@media (max-width:450px) {
+
+	.contact {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+}
