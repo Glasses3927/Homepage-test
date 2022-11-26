@@ -454,5 +454,35 @@
 		font-size: 1.5rem;
 	}
 
+}
+
+@media (max-width:450px) {
+
+	.post-toptitle a{
+		position: absolute;
+		top: 105px;
+		left: 20px;
+	}
+
+	.post-date {
+		margin-left: 55px;
+		margin-right: 10px;
+	}
+
+	.post-title {
+		margin-left: 20px;
+	}
+
+	.site-content {
+		padding: 100px 10px;
+	}
+
+	.site-content article h1 {
+		margin: 60px 5px 25px;
+	}
+
+	.site-content article h2 {
+		margin: 35px 5px 17px;
+	}
 
 }

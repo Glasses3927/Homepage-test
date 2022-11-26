@@ -50,7 +50,7 @@
 }
 
 .profile-content p{
-	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
 }
 
 
@@ -166,12 +166,20 @@
 @media (max-width:450px) {
 	
 	.profile {
-		padding-left: 40px;
-		padding-right: 40px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.profile-theme {
+		margin-left: 10px;
 	}
 	
 	.profile-content {
 		font-size: 1.3rem;
+	}
+
+	.profile-content table {
+		margin-left: 50px;
 	}
 	
 	.ja {

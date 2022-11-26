@@ -225,13 +225,13 @@
 
     .code001 {
         font-size: 4rem;
-
+		letter-spacing: 7px;
     }
 
     .code002 {
-        font-size: 1.5rem;
-        padding-left: 10%;
-		padding-right: 10%;
+        font-size: 1.2rem;
+        padding-left: 7%;
+		padding-right: 7%;
     }
 
 }
@@ -248,8 +248,8 @@
 	}
 	
 	.about {
-		padding-left: 40px;
-		padding-right: 40px;
+		padding-left: 35px;
+		padding-right: 35px;
 	}
 
 }
