@@ -227,10 +227,6 @@ a.btn-sns:hover {
   color: #fff;
 }
 
-a.btn-sns--facebook {
-  background: #1877f2;
-}
-
 a.btn-sns--twitter {
   background: #1da1f2;
 }
@@ -244,6 +240,11 @@ a.btn-sns--instagram {
 a.btn-sns--youtube {
   background: #cd201f;
 }
+
+a.btn-sns--other {
+	background: #808080;
+}
+  
 
 
 

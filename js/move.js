@@ -48,6 +48,28 @@ $(window).on('load', function () {
 
 
 
+/*shareボタン用*/
+
+
+
+
+function share() {
+	let sharetitle = document.getElementById("share-title").innerText
+	let shareurl = document.getElementById("share-url").innerText
+	let sharetext = document.getElementById("share-text").innerText
+	
+	if (navigator.share) {
+	  navigator.share({
+		title: sharetitle,
+		text: sharetext,
+		url: shareurl.replace("%23","#"),
+	  })
+	} else {
+	  alert('Web Share API is not supported!!\nこのブラウザはWeb Share API非対応です。');
+	}
+}
+document.getElementById('share').addEventListener('click', share);
+
 
 
 
@@ -99,7 +121,6 @@ function resizeWindow() {
 		document.getElementById("portfolio-detail-wrap").classList.remove("none");
 	}
 };
-
 
 
 
