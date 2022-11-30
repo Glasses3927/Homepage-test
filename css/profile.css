@@ -71,7 +71,7 @@
 }
 
 .thanks-content div {
-	font-size: 1.8rem;
+	font-size: 1.3rem;
 	display: flex;
 	white-space: nowrap;
 	line-height: 1em;
@@ -191,7 +191,7 @@
 	}
 	
 	.thanks-content div {
-		font-size: 1.3rem!important;
+		font-size: 1.3rem;
 		margin-bottom: 30px;
 	}
 	
